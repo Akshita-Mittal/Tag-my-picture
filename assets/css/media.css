@@ -1,0 +1,357 @@
+@media(min-width:1880px) {
+	.banner-app-screen {
+		max-width: 785px;
+		bottom: 50px;
+	}
+}
+@media(max-width:1680px) {
+	
+	.hero-banner-content h1 {
+		font-size: 62px;
+	}
+    .hero-banner-content p {
+		font-size: 24px;
+		max-width: 455px;
+	}
+}
+
+@media(max-width:1300px) {
+	.hero-banner-area {
+		height: auto;
+	}
+	.banner-app-screen {
+		max-width: 525px;
+	}
+	.footer-box p {
+		font-size: 16px;
+	}
+}
+
+@media(max-width:1199px) {
+	.site-main-heading {
+		font-size: 32px;
+	}
+	.icon-features img {
+		max-width: 28px;
+	}
+	.camera-wrap .carousel-indicators li::before {
+		font-size: 33px;
+		top: 28px;
+	}
+	.camera-wrap .carousel-indicators {
+		padding-left: 10px;
+	}
+	.hero-banner-content {
+		padding-top: 3em;
+	}
+	.camera-wrap {
+		padding-top: 2em;
+	}
+	.site-header {
+		padding: 20px 15px;
+	}
+	.hero-banner-items {
+		padding-left: 70px;
+	}
+	.hero-banner-content h1 {
+		font-size: 46px;
+	}
+	.hero-banner-content p {
+		font-size: 21px;
+	}
+	.hero-banner-bg {
+		min-height: 480px;
+	}
+	.header-logo img {
+		max-width: 250px;
+	}
+	.camera-wrap .carousel-indicators .camera-wrap-list:after {
+		padding-top: 32%;
+		min-width: 430px;
+	}
+	.app-slider-wrap {
+		width: 48%;
+	}
+	.news-form h3 {
+		font-size: 18px;
+	}
+	.news-form form {
+		margin-top: 20px;
+	}
+	.footer-box p {
+		font-size: 15px;
+	}
+	.footer-box .download-option img {
+		max-width: 129px;
+	}
+	.footer-box.copyright {
+		padding-left: 0;
+	}
+	.social-links li a {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.footer-content {
+		bottom: 6%;
+	}
+	.newsletter-sec {
+		margin-bottom: -23%;
+	}
+}
+
+@media(max-width:991px) {
+	.site-header {
+		padding: 20px 5px;
+	}
+	.hero-banner-items {
+		padding-left: 60px;
+	}
+	.banner-app-screen {
+		max-width: 455px;
+		bottom: 40px;
+	}
+	.hero-banner-content p {
+		max-width: 315px;
+	}
+	.header-logo img {
+		max-width: 230px;
+	}
+	.site-header .navbar-nav li {
+		margin-right: 29px;
+	}
+	.site-header .navbar-nav .nav-link {
+		font-size: 15px;
+	}
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.camera-wrap .carousel-indicators .camera-wrap-list:after {
+		padding-top: 32%;
+		min-width: 350px;
+	}
+	.camera-wrap .carousel-indicators li::before {
+		font-size: 26px;
+		top: 35px;
+	}
+	
+	.feature-text {
+		font-size: 14px;
+	}
+	.camera-wrap-list {
+		padding-left: 58px;
+	}
+	.app-slider-wrap .carousel-inner .d-block {
+		max-width: 70%;
+		margin: auto;
+	}
+	.control-btn {
+		position: relative;
+		display: block;
+		width: 40px !important;
+		height: 40px;
+	}
+	.footer-content {
+		bottom: 0;
+	}
+	.footer-box {
+		text-align: center;
+	}
+	.newsletter-sec {
+		margin-bottom: -15%;
+	}
+	.site-footer {
+		background: #0ba4d0;
+	}
+	.footer-box .download-option {
+		margin: 20px 0; 
+	}
+	.news-wrap {
+		margin-bottom: -10%;
+	}
+}
+
+@media(min-width: 768px){
+	.navbar-toggler{
+		display: none;
+	}
+	.navbar-expand-lg .navbar-collapse {
+		display: -webkit-box!important;
+		display: -ms-flexbox!important;
+		display: flex!important;
+		-ms-flex-preferred-size: auto;
+		flex-basis: auto;
+	}
+	.site-header .navbar-nav {
+		flex-direction: unset;
+	}
+}
+
+@media(max-width:767px) {
+	.site-header {
+		padding: 20px 0px;
+	}
+	#navbarContent {
+		width: 100%;
+		background-image: linear-gradient(120deg, var(--green) 0%, var(--blue) 100%);
+	}
+	.site-footer {
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.hero-banner-bg {
+		min-height: 380px;
+	}
+	.app-screen {
+		display: none;
+	}
+	.mobileImg.d-none {
+		display: block !important;
+		max-width: 200px;
+		margin: auto;
+		bottom: -41px;
+		position: relative;
+	}
+	.news-form form input {
+		width: 100%;
+	}
+	.mobileImg.d-none img {
+		max-width: 100%;
+	}
+	.banner-area {
+		min-height: 440px;
+	}
+	.hero-banner-items {
+		padding-left: 0;
+		text-align: center;
+		top: 39%;
+		z-index: 9;
+	}
+	.hero-banner-content {
+		padding-top: 0;
+	}
+	.hero-banner-content h1 {
+		font-size: 36px;
+	}
+	.download-option {
+		margin-top: 10px !important;
+		text-align: center;
+		justify-content: center;
+	}
+	.download-option img {
+		max-width: 120px;
+	}
+	.hero-banner-content p {
+		max-width: 100%;
+		font-size: 16px;
+	}
+	.banner-app-screen {
+		margin: auto;
+		left: 0;
+	}
+	.news-bg,
+	.footer-bg {
+		display: none;
+	}
+	.footer-content {
+		position: relative;
+		bottom: inherit;
+	}
+	.news-wrap {
+		margin-bottom: 0;
+	}
+	.newsitem-content {
+		position: relative;
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: inherit;
+		transform: inherit;
+		bottom: inherit;
+		margin-bottom: 40px;
+	}
+	.footer-box {
+		margin-bottom: 20px;
+	}
+	.camera-wrap-list {
+		padding-left: 10px;
+		min-height: 50px;
+		margin-bottom: 20px;
+	}
+	.camera-wrap .carousel-indicators .camera-wrap-list:after {
+		padding-top: 2%;
+		min-width: 300px;
+		background-position: right;
+	}
+	.app-slider-wrap {
+		width: 74%;
+		margin-left: 30px;
+	}
+	.app-slider-wrap .carousel-inner .d-block {
+		max-width: 90%;
+	}
+	.carousel-item {
+		padding: 0 20px;
+	}
+	.icon-features {
+		margin-right: 5px;
+	}
+	.icon-features img {
+		max-width: 20px;
+	}
+	.camera-wrap .carousel-indicators li::before {
+		font-size: 18px;
+		top: 12px;
+		left: -15px;
+	}
+	.control-btn {
+		position: relative;
+		display: block;
+		width: 25px !important;
+		height: 25px;
+	}
+	.control-btn img {
+		max-width: 7px;
+	}
+	.site-main-heading {
+		font-size: 24px;
+	}
+	
+	.site-header .navbar-nav li {
+		margin-right: 0;
+		padding: 10px 20px;
+	}
+	.site-header .navbar-nav .nav-link {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.header-logo {
+		position: relative;
+		z-index: 9;
+	}
+	.overflow-hidden {
+		overflow: hidden;
+	}
+	.site-header .navbar-nav .nav-link:before {
+		display: none;
+	}
+	.news-form .btn-send {
+		left: inherit;
+		margin: 25px auto 0 auto;
+	}
+	.news-form h3 br {
+		display: none;
+	}
+	.form-style {
+		flex-direction: column;
+	}
+	.carousel-control-next, .carousel-control-prev {
+		top: 38%;
+	}
+	.camera-wrap .carousel-indicators {
+		padding-left: 10px;
+		width: 100%;
+	}
+}
